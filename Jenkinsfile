@@ -11,7 +11,9 @@ pipeline {
         } 
         stage('Data Injection Chaos automation') {
             steps {
-                sh echo $Scenario
+                script {
+                    sh (
+                	echo "$Scenario")
             }
         }
     }
