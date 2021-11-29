@@ -1,5 +1,5 @@
 pipeline {
-    agent{label 'FPCMS-EKS-NP-NODE-DIT'}
+    agent any
     stages {
 	stage('Setup Variables') {
             steps {
