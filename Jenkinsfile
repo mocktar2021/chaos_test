@@ -9,7 +9,7 @@ pipeline {
                 }
             }
         } 
-        stage('Data Injection Chaos automation') {
+        stage('aaaaaa Chaos automation') {
             steps {
 		    script {
                 sh echo "$Scenario"
